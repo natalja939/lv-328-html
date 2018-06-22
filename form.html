@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form Sample</h1>
+    
+    <form method="POST" action="https://formspree.io/bejbanatalja939@gmail.com">
+        <label for="user-name">User Name:</label>
+        <input type="text" name="ser name" 
+        id="user-name"
+        placeholder="User Name" required>
+        <br>
+        
+        <label>User Email:
+        <input type="email" name="user-email" placeholder="User Email" required>
+        </label>
+        <br>
+        <label>Password:
+            <input type="password" name="password" placeholder="********" required pattern=".{8,}"
+            title="Minimum 8 symbols">
+            <br>
+            <input type="submit" value="SEND">
+        </label>
+    </form>
+</body>
+</html>
